@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartwatch Premium - Série X</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+   
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1>Smartwatch Premium - Série X</h1>
+        <p class="tagline">O futuro da tecnologia no seu pulso</p>
+    </header>
+
+    <!-- Seção do Produto -->
+    <main class="product-section">
+        <!-- Imagem principal e miniaturas -->
+        <div class="product-gallery">
+            <div class="product-image-container">
+                <img src="1 img.jpg" alt="Smartwatch Premium" id="mainImage" class="product-image">
+            </div>
+            <div class="thumbnail-container">
+                <img src="1 img.jpg" alt="Imagem 1" class="thumbnail" onclick="updateImage('1 img.jpg')" title="Versão Clássica">
+                <img src="2 img.jpg" alt="Imagem 2" class="thumbnail" onclick="updateImage('2 img.jpg')" title="Versão Esportiva">
+                <img src="3 img.jpg" alt="Imagem 3" class="thumbnail" onclick="updateImage('3 img.jpg')" title="Versão Pro">
+                <img src="4 img.jpg" alt="Imagem 4" class="thumbnail" onclick="updateImage('4 img.jpg')" title="Versão Slim">
+            </div>
+        </div>
+
+        <!-- Informações do produto -->
+        <div class="product-info">
+            <h2 id="productTitle">Smartwatch Premium - Série X</h2>
+            <p id="productPrice" class="product-price">R$999,00</p>
+            <p id="productDescription" class="product-description">
+                Experimente o futuro com o Smartwatch Série X. Monitoramento avançado de saúde, design elegante e conectividade total para quem busca estilo e tecnologia em um só produto.
+            </p>
+            
+            <!-- Detalhes técnicos do produto -->
+            <div class="product-details">
+                <h3>Detalhes Técnicos:</h3>
+                <ul>
+                    <li>Monitor de Frequência Cardíaca</li>
+                    <li>Rastreamento de Atividade Física (passos, calorias, distância)</li>
+                    <li>Conexão Bluetooth 5.0</li>
+                    <li>Bateria com duração de até 10 dias</li>
+                    <li>À prova d'água (resistência até 50m)</li>
+                    <li>Compatível com iOS e Android</li>
+                </ul>
+            </div>
+
+            <!-- Formulário de compra -->
+            <form id="purchaseForm" class="purchase-form">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <input type="tel" name="phone" placeholder="Telefone" required>
+                <button type="submit" class="purchase-button">Comprar Agora</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Seção de Recursos do Produto -->
+    <section class="features-section">
+        <h3>Recursos Exclusivos</h3>
+        <div class="features">
+            <div class="feature">
+                <h4>Monitoramento de Saúde</h4>
+                <p>Acompanhe sua frequência cardíaca, nível de oxigênio e muito mais em tempo real.</p>
+            </div>
+            <div class="feature">
+                <h4>Design Elegante</h4>
+                <p>Feito para todas as ocasiões, com pulseiras intercambiáveis e cores estilosas.</p>
+            </div>
+            <div class="feature">
+                <h4>Conectividade Avançada</h4>
+                <p>Receba notificações, controle a música e acesse suas mensagens diretamente no pulso.</p>
+            </div>
+            <div class="feature">
+                <h4>Bateria de Longa Duração</h4>
+                <p>Com até 10 dias de duração com uma única carga para manter você conectado.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2024 - Smartwatch Premium | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
